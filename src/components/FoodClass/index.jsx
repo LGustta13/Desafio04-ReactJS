@@ -6,10 +6,10 @@ import api from '../../services/api';
 
 class Food extends Component {
   constructor(props) {
-    super(props);
+    super(props);   // substitui com useState
 
     const { available } = this.props.food;
-    this.state = {
+    this.state = {    // substitui com useState
       isAvailable: available
     };
   }
