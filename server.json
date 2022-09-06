@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Ao molho",
       "description": "Macarrão ao molho branco, fughi e cheiro verde das montanhas",
-      "price": "30.00",
+      "price": "21.00",
       "available": true,
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png"
     },
@@ -26,17 +26,17 @@
     },
     {
       "image": "https://picsum.photos/400/200?random=2",
-      "name": "Aleatório",
-      "price": "10.00",
-      "description": "Prato totalmente aleatório",
+      "name": "123",
+      "price": "12.00",
+      "description": "123",
       "available": true,
       "id": 4
     },
     {
-      "image": "https://picsum.photos/400/200?random=1",
-      "name": "Comida da casa",
-      "price": "25.00",
-      "description": "Caprichada",
+      "image": "https://picsum.photos/400/200?random=3",
+      "name": "1234",
+      "price": "5.00",
+      "description": "1245",
       "available": true,
       "id": 5
     }
