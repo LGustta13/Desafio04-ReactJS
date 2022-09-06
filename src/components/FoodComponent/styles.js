@@ -13,10 +13,13 @@ export const Container = styled.div`
     text-align: center;
 
     ${props =>
+    // Pega a propriedade available do Container
     !props.available &&
     css`
         opacity: 0.3;
       `};
+    
+    /* ${props => !props.available ? css`opacity: 0.3` : (!props.available)}; */
 
     img {
       pointer-events: none;
