@@ -3,7 +3,9 @@ import { FiCheckSquare } from 'react-icons/fi';
 
 import { Form } from './styles';
 import Modal from '../Modal';
-import Input from '../Input';
+
+import Input from '../InputClass';
+// import Input from '../InputComponent';
 
 class ModalAddFood extends Component {
   constructor(props) {
