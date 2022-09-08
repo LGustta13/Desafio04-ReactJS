@@ -6,16 +6,15 @@ import api from '../../services/api';
 
 class Food extends Component {
   constructor(props) {
-    super(props);   // substitui com useState
+    super(props);
 
     const { available } = this.props.food;
-    this.state = {    // substitui com useState
+    this.state = {
       isAvailable: available
     };
   }
 
   toggleAvailable = async () => {
-    
     const { food } = this.props;
     const { isAvailable } = this.state;
 

@@ -39,6 +39,14 @@
       "description": "1245",
       "available": true,
       "id": 5
+    },
+    {
+      "image": "https://picsum.photos/400/200?random=4",
+      "name": "Moda doida",
+      "price": "30.00",
+      "description": "123",
+      "available": true,
+      "id": 6
     }
   ]
 }
