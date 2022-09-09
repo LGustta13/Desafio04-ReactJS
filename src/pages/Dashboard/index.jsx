@@ -11,7 +11,9 @@ import api from '../../services/api';
 // import ModalAddFood from '../../components/ModalAddFoodClass';
 import {ModalAddFood} from '../../components/ModalAddFoodComponent';
 
-import ModalEditFood from '../../components/ModalEditFood';
+// import ModalEditFood from '../../components/ModalEditFoodClass';
+import {ModalEditFood} from '../../components/ModalEditFoodComponent';
+
 import { FoodsContainer } from './styles';
 
 class Dashboard extends Component {
