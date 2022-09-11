@@ -1,18 +1,11 @@
 import { Component } from 'react';
 
-// import Header from '../../components/HeaderClass';
-import {Header} from '../../components/HeaderComponent';
-
-// import Food from '../../components/FoodClass';
-import {Food} from '../../components/FoodComponent';
-
 import api from '../../services/api';
 
-// import ModalAddFood from '../../components/ModalAddFoodClass';
-import {ModalAddFood} from '../../components/ModalAddFoodComponent';
-
-// import ModalEditFood from '../../components/ModalEditFoodClass';
-import {ModalEditFood} from '../../components/ModalEditFoodComponent';
+import Header from '../../components/Header';
+import Food from '../../components/Food';
+import ModalAddFood from '../../components/ModalAddFood';
+import ModalEditFood from '../../components/ModalEditFood';
 
 import { FoodsContainer } from './styles';
 

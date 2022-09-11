@@ -6,26 +6,13 @@ import { Container } from './styles';
 
 import api from '../../services/api';
 
-type FoodProps = {
-    id: number,
-    name: string,
-    description: string,
-    price: number,
-    available: boolean,
-    image: string
-}
-
-type HandleFoodProps = {
-    food: FoodProps,
-    handleEditFood: (food: FoodProps) => void,
-    handleDelete: (id: number) => void
-}
+import { FoodProps, HandleFoodProps } from '../../entities';
 
 export function Food(props: HandleFoodProps) {
 
     const { food, handleEditFood, handleDelete } = props;
     const { available } = food;
-    const [isAvailable, setIsAvailable] = useState(available)
+    const [isAvailable, setIsAvailable] = useState(available);
 
     async function toggleAvailable() {
 
@@ -93,9 +80,3 @@ export function Food(props: HandleFoodProps) {
         </Container>
     );
 }
-
-
-
-
-
-// https://www.notion.so/Desafio-02-Refactoring-de-classes-e-typescript-4571541e7f8c4799bd191b6cfb53802c

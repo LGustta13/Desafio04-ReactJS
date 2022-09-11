@@ -4,27 +4,10 @@ import { FiCheckSquare } from 'react-icons/fi';
 
 import { Form } from './styles';
 
-import { Modal } from '../ModalComponent';
-// import Modal from '../ModalClass';
+import { Modal } from '../Modal';
+import { Input } from '../Input';
 
-import Input from '../InputClass';
-// import {Input} from '../InputComponent';
-
-type FoodProps = {
-  id: number,
-  name: string,
-  description: string,
-  price: string,
-  available: boolean,
-  image: string
-}
-
-export type ModalEditFoodProps = {
-  isOpen: boolean,
-  setIsOpen: () => void,
-  editingFood: FoodProps,
-  handleUpdateFood: (food: FoodProps) => Promise<void>
-}
+import { FoodProps, ModalEditFoodProps } from '../../entities';
 
 export function ModalEditFood(props: ModalEditFoodProps) {
 
